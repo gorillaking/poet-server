@@ -1,0 +1,1 @@
+{"version":3,"file":"leave-result.js","sourceRoot":"","sources":["../../game/leave-result.ts"],"names":[],"mappings":";;;AAEA;IAQE,qBAAmB,MAAc,EAAS,WAAmB;QAA1C,WAAM,GAAN,MAAM,CAAQ;QAAS,gBAAW,GAAX,WAAW,CAAQ;QAPtD,kBAAa,GAAY,KAAK,CAAC;QAE/B,gBAAW,GAAY,KAAK,CAAC;QAE7B,oBAAe,GAAY,KAAK,CAAC;QACjC,iBAAY,GAAY,KAAK,CAAC;IAE0B,CAAC;IAClE,kBAAC;AAAD,CAAC,AATD,IASC;AATY,kCAAW"}
