@@ -4,8 +4,10 @@ import { Games } from "./game/games";
 import { Player } from "./game/player";
 import { Room } from "./game/room";
 import { SocketResponse } from "./game/socket-response";
+import * as cors from 'cors';
 
 const app = express();
+app.use(cors());
 const server = app.listen(process.env.PORT || 3000, function() {
   console.log('App is listening on port 3000!');
 });

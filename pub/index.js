@@ -3,7 +3,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var express = require("express");
 var games_1 = require("./game/games");
 var socket_response_1 = require("./game/socket-response");
+var cors = require("cors");
 var app = express();
+app.use(cors());
 var server = app.listen(process.env.PORT || 3000, function () {
     console.log('App is listening on port 3000!');
 });
